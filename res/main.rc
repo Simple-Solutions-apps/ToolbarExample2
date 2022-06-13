@@ -1,0 +1,22 @@
+
+/*-------------------------------------------
+  Copyright Simple Solutions, 2022
+  Revised: 2022/06/12 20:36
+-------------------------------------------*/
+
+//Standard includes
+#include <windows.h>
+#include <afxres.h>
+
+//Custom includes
+#include "..\include\resources.h"
+#include "..\include\controls.h"
+
+//manifest file
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "..\\Manifest\\ToolBarExample2.exe.manifest"
+
+//app icon
+IDI_APPICON ICON "..\\assets\\images\\mainicon.ico" //Window icon
+
+//Toolbar custom bitmap
+IDB_TBBITMAP_LARGE_COLOR BITMAP "..\\assets\\images\\TB_BTNSET_CLRSTD.bmp"
